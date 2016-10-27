@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/12-IOtest/iotest 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/12-IOtest/iotest.reference_output

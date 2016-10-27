@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/BitBench/uudecode/uudecode /home/dsand/Junk/test-suite/MultiSource/Benchmarks/BitBench/uudecode/input-file
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/BitBench/uudecode/uudecode.reference_output

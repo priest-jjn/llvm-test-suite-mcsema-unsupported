@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/NodeSplitting-dbl/NodeSplitting-dbl 10000 14
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/NodeSplitting-dbl/NodeSplitting-dbl.reference_output

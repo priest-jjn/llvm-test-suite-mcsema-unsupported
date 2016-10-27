@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Ptrdist/anagram/anagram /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Ptrdist/anagram/words 2 < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Ptrdist/anagram/input.OUT
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Ptrdist/anagram/anagram.reference_output

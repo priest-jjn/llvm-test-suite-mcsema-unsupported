@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/mediabench/gsm/toast/toast -cpl /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/gsm/toast/../data/clinton.pcm
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/gsm/toast/toast.reference_output.little-endian

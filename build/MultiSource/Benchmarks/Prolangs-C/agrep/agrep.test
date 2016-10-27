@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Prolangs-C/agrep/agrep -2 int /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/InstructionCombining.cpp.txt
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C/agrep/agrep.reference_output

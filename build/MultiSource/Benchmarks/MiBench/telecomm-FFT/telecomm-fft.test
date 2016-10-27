@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/telecomm-FFT/telecomm-fft 8 32768 -i
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -a 0.00001 %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/telecomm-FFT/telecomm-fft.reference_output

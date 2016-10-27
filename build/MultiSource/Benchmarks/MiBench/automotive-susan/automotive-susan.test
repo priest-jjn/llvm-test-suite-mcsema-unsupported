@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/automotive-susan/automotive-susan /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/input_large.pgm /dev/null -s
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/automotive-susan/automotive-susan.reference_output

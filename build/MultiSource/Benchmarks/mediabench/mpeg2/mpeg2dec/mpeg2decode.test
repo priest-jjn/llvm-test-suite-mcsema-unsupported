@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/mpeg2decode -b /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/../data/mei16v2.m2v -r -f -o0 /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/tmp%d
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/mpeg2decode.reference_output

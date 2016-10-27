@@ -1,0 +1,1 @@
+RUN: /home/dsand/Junk/test-suite/build/Bitcode/Benchmarks/Halide/blur/halide_blur 

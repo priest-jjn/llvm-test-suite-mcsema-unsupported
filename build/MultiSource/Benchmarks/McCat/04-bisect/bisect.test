@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/04-bisect/bisect < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/04-bisect/bisect_test.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -r 0.001 %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/04-bisect/bisect.reference_output

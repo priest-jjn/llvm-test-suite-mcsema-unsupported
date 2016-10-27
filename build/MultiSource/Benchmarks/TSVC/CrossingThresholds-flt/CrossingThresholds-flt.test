@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/CrossingThresholds-flt/CrossingThresholds-flt 5880 5
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/CrossingThresholds-flt/CrossingThresholds-flt.reference_output

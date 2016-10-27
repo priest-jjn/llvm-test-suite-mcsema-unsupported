@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary fhourstones.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/fhourstones.dir/c4.c.o CMakeFiles/fhourstones.dir/play.c.o CMakeFiles/fhourstones.dir/time.c.o CMakeFiles/fhourstones.dir/trans.c.o  -o fhourstones 

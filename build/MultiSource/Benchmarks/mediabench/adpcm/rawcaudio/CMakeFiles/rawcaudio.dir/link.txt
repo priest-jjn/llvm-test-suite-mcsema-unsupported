@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary rawcaudio.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/rawcaudio.dir/rawcaudio.c.o CMakeFiles/rawcaudio.dir/adpcm.c.o  -o rawcaudio 

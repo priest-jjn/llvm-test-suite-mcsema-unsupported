@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/security-sha/security-sha /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/security-sha/input_large.asc
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/security-sha/security-sha.reference_output

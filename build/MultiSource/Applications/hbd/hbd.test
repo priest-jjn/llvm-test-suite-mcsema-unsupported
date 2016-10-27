@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/hbd/hbd /home/dsand/Junk/test-suite/MultiSource/Applications/hbd/Sort.class
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/hbd/hbd.reference_output

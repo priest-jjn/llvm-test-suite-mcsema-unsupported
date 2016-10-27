@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary office-stringsearch.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/office-stringsearch.dir/bmhasrch.c.o CMakeFiles/office-stringsearch.dir/bmhisrch.c.o CMakeFiles/office-stringsearch.dir/bmhsrch.c.o CMakeFiles/office-stringsearch.dir/pbmsrch.c.o  -o office-stringsearch -lm 

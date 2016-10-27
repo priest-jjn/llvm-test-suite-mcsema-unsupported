@@ -1,0 +1,1 @@
+RUN: /home/dsand/Junk/test-suite/build/Bitcode/Regression/vector_widen/widen_bug 

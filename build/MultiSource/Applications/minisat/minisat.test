@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/minisat/minisat -verbosity=0 /home/dsand/Junk/test-suite/MultiSource/Applications/minisat/short.cnf
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -r 0.1 %o /home/dsand/Junk/test-suite/MultiSource/Applications/minisat/minisat.reference_output

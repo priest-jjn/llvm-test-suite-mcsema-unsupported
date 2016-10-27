@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/ASCI_Purple/SMG2000/smg2000 -n 100 40 100 -c 0.1 1.0 10.0
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/ASCI_Purple/SMG2000/smg2000.reference_output

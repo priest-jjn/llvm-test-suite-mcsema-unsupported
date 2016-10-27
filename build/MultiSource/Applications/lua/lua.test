@@ -1,0 +1,3 @@
+RUN: cd /home/dsand/Junk/test-suite/build/MultiSource/Applications/lua ; /home/dsand/Junk/test-suite/build/MultiSource/Applications/lua/lua alltests.lua
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/lua/lua.reference_output

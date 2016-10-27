@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Olden/health/health 9 20 1
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -r 0.001 %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Olden/health/health.reference_output

@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/FreeBench/distray/distray /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/distray/test.in
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/distray/distray.reference_output

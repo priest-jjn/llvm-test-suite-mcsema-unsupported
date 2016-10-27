@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/Packing-dbl/Packing-dbl 50000 14
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/Packing-dbl/Packing-dbl.reference_output

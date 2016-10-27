@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/InductionVariable-dbl 9100 14
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/InductionVariable-dbl.reference_output

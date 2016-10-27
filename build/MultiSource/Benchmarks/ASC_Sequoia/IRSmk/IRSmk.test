@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/ASC_Sequoia/IRSmk/IRSmk /home/dsand/Junk/test-suite/MultiSource/Benchmarks/ASC_Sequoia/IRSmk/irsmk_input
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/ASC_Sequoia/IRSmk/IRSmk.reference_output

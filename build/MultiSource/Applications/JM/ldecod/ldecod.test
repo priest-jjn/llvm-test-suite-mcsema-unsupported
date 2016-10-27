@@ -1,0 +1,2 @@
+RUN: cd /home/dsand/Junk/test-suite/build/MultiSource/Applications/JM/ldecod ; /home/dsand/Junk/test-suite/build/MultiSource/Applications/JM/ldecod/ldecod -i /home/dsand/Junk/test-suite/MultiSource/Applications/JM/ldecod/data/test.264 -o Output/test_dec.yuv -r /home/dsand/Junk/test-suite/MultiSource/Applications/JM/ldecod/data/test_rec.yuv
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/JM/ldecod/ldecod.reference_output

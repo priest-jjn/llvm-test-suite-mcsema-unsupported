@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1 < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Fhourstones-3.1/inputs
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1.reference_output

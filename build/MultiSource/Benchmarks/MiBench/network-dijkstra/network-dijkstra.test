@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/network-dijkstra/network-dijkstra /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/network-dijkstra/input.dat
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/network-dijkstra/network-dijkstra.reference_output

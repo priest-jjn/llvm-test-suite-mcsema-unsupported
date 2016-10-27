@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/LoopRerolling-dbl/LoopRerolling-dbl 5260 14
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/LoopRerolling-dbl/LoopRerolling-dbl.reference_output

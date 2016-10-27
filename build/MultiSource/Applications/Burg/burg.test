@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/Burg/burg < /home/dsand/Junk/test-suite/MultiSource/Applications/Burg/sample.gr
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/Burg/burg.reference_output

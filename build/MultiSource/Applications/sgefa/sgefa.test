@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/sgefa/sgefa 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -r 0.0001 %o /home/dsand/Junk/test-suite/MultiSource/Applications/sgefa/sgefa.reference_output

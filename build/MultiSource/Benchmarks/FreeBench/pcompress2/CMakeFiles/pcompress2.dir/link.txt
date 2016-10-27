@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary pcompress2.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/pcompress2.dir/arithmetic.c.o CMakeFiles/pcompress2.dir/compress.c.o CMakeFiles/pcompress2.dir/pcompress2.c.o CMakeFiles/pcompress2.dir/unarithmetic.c.o CMakeFiles/pcompress2.dir/uncompress.c.o  -o pcompress2 

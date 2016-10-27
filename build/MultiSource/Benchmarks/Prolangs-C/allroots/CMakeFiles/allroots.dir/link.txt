@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary allroots.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/allroots.dir/all.c.o CMakeFiles/allroots.dir/horners.c.o CMakeFiles/allroots.dir/newton.c.o  -o allroots -lm 

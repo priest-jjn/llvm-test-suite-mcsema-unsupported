@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell -a -d /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/office-ispell/americanmed+ < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/office-ispell/large.txt
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell.reference_output

@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/FreeBench/pifft/pifft /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/pifft/test.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/pifft/pifft.reference_output

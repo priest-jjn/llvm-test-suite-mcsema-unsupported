@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/MiBench/consumer-jpeg/consumer-jpeg -dct int -ppm -outfile /dev/null /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/consumer-jpeg/input_large.jpg
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/MiBench/consumer-jpeg/consumer-jpeg.reference_output

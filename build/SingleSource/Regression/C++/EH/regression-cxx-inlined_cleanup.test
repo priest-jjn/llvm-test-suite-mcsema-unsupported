@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/SingleSource/Regression/C++/EH/regression-cxx-inlined_cleanup 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/Regression/C++/EH/inlined_cleanup.reference_output

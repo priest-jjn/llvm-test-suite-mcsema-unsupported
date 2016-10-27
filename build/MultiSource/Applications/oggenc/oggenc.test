@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/oggenc/oggenc -Q -s 901820 - < /home/dsand/Junk/test-suite/MultiSource/Applications/oggenc/tune
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/oggenc/oggenc.reference_output

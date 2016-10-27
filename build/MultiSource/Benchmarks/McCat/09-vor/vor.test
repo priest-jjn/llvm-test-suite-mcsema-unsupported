@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/09-vor/vor < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/09-vor/vor.in3
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/09-vor/vor.reference_output

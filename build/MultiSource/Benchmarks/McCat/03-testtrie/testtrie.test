@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/03-testtrie/testtrie /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/03-testtrie/testtrie.in2
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/03-testtrie/testtrie.reference_output

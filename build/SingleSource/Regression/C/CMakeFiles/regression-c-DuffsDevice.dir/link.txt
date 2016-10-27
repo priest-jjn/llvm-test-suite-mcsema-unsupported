@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary regression-c-DuffsDevice.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/regression-c-DuffsDevice.dir/DuffsDevice.c.o  -o regression-c-DuffsDevice -lm 

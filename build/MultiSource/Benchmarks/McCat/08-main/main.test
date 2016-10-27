@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/08-main/main 
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/08-main/main.reference_output

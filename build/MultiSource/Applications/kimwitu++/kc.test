@@ -1,0 +1,3 @@
+RUN: cd /home/dsand/Junk/test-suite/build/MultiSource/Applications/kimwitu++ ; /home/dsand/Junk/test-suite/build/MultiSource/Applications/kimwitu++/kc -f test -o -v -s kcc /home/dsand/Junk/test-suite/MultiSource/Applications/kimwitu++/inputs/f3.k /home/dsand/Junk/test-suite/MultiSource/Applications/kimwitu++/inputs/f2.k /home/dsand/Junk/test-suite/MultiSource/Applications/kimwitu++/inputs/f1.k
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/kimwitu++/kc.reference_output

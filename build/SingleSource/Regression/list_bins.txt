@@ -1,0 +1,14 @@
+C/regression-c-DuffsDevice
+C/regression-c-globalrefs
+C/regression-c-test_indvars
+C++/regression-cxx-ofstream_ctor
+C++/EH/regression-cxx-class_hierarchy
+C++/EH/regression-cxx-ctor_dtor_count
+C++/EH/regression-cxx-ctor_dtor_count-2
+C++/EH/regression-cxx-exception_spec_test
+C++/EH/regression-cxx-function_try_block
+C++/EH/regression-cxx-inlined_cleanup
+C++/EH/regression-cxx-recursive-throw
+C++/EH/regression-cxx-simple_rethrow
+C++/EH/regression-cxx-simple_throw
+C++/EH/regression-cxx-throw_rethrow_test

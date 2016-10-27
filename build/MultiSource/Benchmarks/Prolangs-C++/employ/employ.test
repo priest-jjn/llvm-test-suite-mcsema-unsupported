@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Prolangs-C++/employ/employ 400 < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C++/employ/input.txt
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C++/employ/employ.reference_output

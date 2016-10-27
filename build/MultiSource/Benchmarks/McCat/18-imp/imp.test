@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/McCat/18-imp/imp /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/18-imp/sg01.imp
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/McCat/18-imp/imp.reference_output

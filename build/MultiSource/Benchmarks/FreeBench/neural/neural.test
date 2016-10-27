@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/FreeBench/neural/neural /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/neural/test.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/neural/neural.reference_output

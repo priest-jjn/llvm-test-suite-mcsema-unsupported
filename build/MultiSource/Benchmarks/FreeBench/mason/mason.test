@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/FreeBench/mason/mason /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/mason/test.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/mason/mason.reference_output

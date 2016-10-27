@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Prolangs-C/unix-smail/unix-smail -v ALL < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/main.c
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Prolangs-C/unix-smail/unix-smail.reference_output

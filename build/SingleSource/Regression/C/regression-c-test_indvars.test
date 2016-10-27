@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/SingleSource/Regression/C/regression-c-test_indvars 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/Regression/C/test_indvars.reference_output

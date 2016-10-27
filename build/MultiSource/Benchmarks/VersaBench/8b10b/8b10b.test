@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/VersaBench/8b10b/8b10b /home/dsand/Junk/test-suite/MultiSource/Benchmarks/VersaBench/8b10b/input.txt 20000
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/VersaBench/8b10b/8b10b.reference_output

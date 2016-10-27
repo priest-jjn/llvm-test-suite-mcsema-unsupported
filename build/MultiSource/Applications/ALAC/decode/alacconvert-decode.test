@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/ALAC/decode/alacconvert-decode - - < /home/dsand/Junk/test-suite/MultiSource/Applications/ALAC/decode/tune.caf
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/ALAC/decode/alacconvert-decode.reference_output.little-endian

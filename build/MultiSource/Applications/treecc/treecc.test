@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/treecc/treecc -n /home/dsand/Junk/test-suite/MultiSource/Applications/treecc/examples/expr_cpp.tc
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/treecc/treecc.reference_output

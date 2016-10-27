@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/SIBsim4/SIBsim4 -A4 /home/dsand/Junk/test-suite/MultiSource/Applications/SIBsim4/x.fa /home/dsand/Junk/test-suite/MultiSource/Applications/SIBsim4/y.fa
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/SIBsim4/SIBsim4.reference_output

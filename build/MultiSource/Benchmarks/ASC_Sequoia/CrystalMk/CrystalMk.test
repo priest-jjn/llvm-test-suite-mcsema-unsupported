@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/ASC_Sequoia/CrystalMk/CrystalMk 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/ASC_Sequoia/CrystalMk/CrystalMk.reference_output

@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary deriv2.link.time /home/dsand/Install/llvm.release.install/bin/clang++          CMakeFiles/deriv2.dir/student3.cpp.o  -o deriv2 -lstdc++ 

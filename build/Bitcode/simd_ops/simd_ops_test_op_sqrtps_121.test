@@ -1,0 +1,1 @@
+RUN: /home/dsand/Junk/test-suite/build/Bitcode/simd_ops/simd_ops_test_op_sqrtps_121 

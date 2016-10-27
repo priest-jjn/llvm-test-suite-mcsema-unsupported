@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/TSVC/IndirectAddressing-flt/IndirectAddressing-flt 12500 5
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/TSVC/IndirectAddressing-flt/IndirectAddressing-flt.reference_output

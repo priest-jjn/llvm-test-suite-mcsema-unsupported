@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/mediabench/adpcm/rawdaudio/rawdaudio < /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/adpcm/rawdaudio/../data/clinton.adpcm
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/mediabench/adpcm/rawdaudio/rawdaudio.reference_output.little-endian

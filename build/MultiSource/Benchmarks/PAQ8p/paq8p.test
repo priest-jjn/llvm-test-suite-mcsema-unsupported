@@ -1,0 +1,2 @@
+RUN: cd /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/PAQ8p ; /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/PAQ8p/paq8p -4 /home/dsand/Junk/test-suite/MultiSource/Benchmarks/PAQ8p/file1.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/PAQ8p/paq8p.reference_output

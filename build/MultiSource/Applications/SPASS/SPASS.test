@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/SPASS/SPASS /home/dsand/Junk/test-suite/MultiSource/Applications/SPASS/problem.dfg
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/SPASS/SPASS.reference_output

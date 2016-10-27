@@ -1,0 +1,1 @@
+/home/dsand/Junk/test-suite/build/tools/timeit --summary analyzer.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/analyzer.dir/analyzer.c.o CMakeFiles/analyzer.dir/functs.c.o CMakeFiles/analyzer.dir/help.c.o CMakeFiles/analyzer.dir/parse_settings.c.o CMakeFiles/analyzer.dir/types.c.o  -o analyzer 

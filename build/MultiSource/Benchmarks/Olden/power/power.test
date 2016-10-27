@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Olden/power/power 
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp -r 0.00001 %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Olden/power/power.reference_output

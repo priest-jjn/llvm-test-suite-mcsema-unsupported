@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/BitBench/drop3/drop3 /home/dsand/Junk/test-suite/MultiSource/Benchmarks/BitBench/drop3/input-file
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/BitBench/drop3/drop3.reference_output

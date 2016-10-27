@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/FreeBench/fourinarow/fourinarow /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/fourinarow/test.in
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/FreeBench/fourinarow/fourinarow.reference_output

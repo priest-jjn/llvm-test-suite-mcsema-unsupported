@@ -1,0 +1,2 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Applications/spiff/spiff /home/dsand/Junk/test-suite/MultiSource/Applications/spiff/Sample.3 /home/dsand/Junk/test-suite/MultiSource/Applications/spiff/Sample.4
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Applications/spiff/spiff.reference_output

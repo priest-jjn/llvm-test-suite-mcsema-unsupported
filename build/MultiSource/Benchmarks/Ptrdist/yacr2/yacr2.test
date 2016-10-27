@@ -1,0 +1,3 @@
+RUN: /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2 /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/input2.in
+VERIFY: /home/dsand/Junk/test-suite/HashProgramOutput.sh %o
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2.reference_output

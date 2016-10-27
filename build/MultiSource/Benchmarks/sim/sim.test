@@ -1,0 +1,2 @@
+RUN: cd /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/sim ; /home/dsand/Junk/test-suite/build/MultiSource/Benchmarks/sim/sim 8 /home/dsand/Junk/test-suite/MultiSource/Benchmarks/sim/tob.38-44 /home/dsand/Junk/test-suite/MultiSource/Benchmarks/sim/liv.42-48
+VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/MultiSource/Benchmarks/sim/sim.reference_output

@@ -1,0 +1,12 @@
+2003-05-31-LongShifts
+2005-05-11-Popcount-ffs-fls
+2005-05-12-Int64ToFP
+2005-07-17-INT-To-FP
+AtomicOps
+initp1
+Vector-build
+Vector-multiplies
+Vector-simple
+Vector-sumarray
+Vector-sumarray-dbl
+gcc-loops
