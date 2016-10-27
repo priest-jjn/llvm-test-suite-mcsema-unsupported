@@ -7,4 +7,4 @@ if(ARCH STREQUAL "XCore")
 endif()
 llvm_singlesource()
 
-llvm_add_subdirectories(Large)
+#llvm_add_subdirectories(Large)

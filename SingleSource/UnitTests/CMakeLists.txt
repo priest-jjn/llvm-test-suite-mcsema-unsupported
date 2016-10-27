@@ -1,10 +1,12 @@
-llvm_add_subdirectories(Vector Vectorizer SignlessTypes Threads C++11)
+llvm_add_subdirectories(Vector Vectorizer)
+
+list(APPEND CFLAGS -mno-sse -mno-sse2 -mno-avx)
 
 # FIXME: Disable SJLJ tests for now, until EH edges are represented.
 # llvm_add_subdirectories(SetjmpLongjmp)
 
 if(TARGET_OS STREQUAL "Darwin")
-  llvm_add_subdirectories(ObjC ObjC++)
+  # llvm_add_subdirectories(ObjC ObjC++)
 endif()
 if(TARGET_OS STREQUAL "Darwin")
   set(PROGRAMS_TO_SKIP 2007-04-25-weak)
@@ -16,7 +18,7 @@ if(ARCH STREQUAL "AArch64")
   list(APPEND PROGRAMS_TO_SKIP blockstret)
 endif()
 if(ARCH STREQUAL "Mips")
-  llvm_add_subdirectories(Mips)
+  #llvm_add_subdirectories(Mips)
   # Only MIPS 64-bit supports 8 bytes atomic operations.
   if(NOT MIPS_IS_MIPS64_ENABLED)
     list(APPEND PROGRAMS_TO_SKIP AtomicOps)

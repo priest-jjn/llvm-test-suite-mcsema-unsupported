@@ -1,8 +1,11 @@
+
+list(APPEND CFLAGS -mno-sse -mno-sse2 -mno-avx)
+
 if(ARCH STREQUAL "PowerPC")
-  llvm_add_subdirectories(Altivec)
+   llvm_add_subdirectories(Altivec)
 endif()
 if(ARCH STREQUAL "x86")
-  llvm_add_subdirectories(SSE)
+  #llvm_add_subdirectories(SSE)
 endif()
 if(NOT "${CC_UNDER_TEST_TARGET_IS_THUMBV7}" STREQUAL "")
   llvm_add_subdirectories(NEON)
