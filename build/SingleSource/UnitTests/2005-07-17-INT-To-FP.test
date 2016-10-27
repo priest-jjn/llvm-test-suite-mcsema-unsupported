@@ -1,2 +1,0 @@
-RUN: /home/dsand/Junk/test-suite/build/SingleSource/UnitTests/2005-07-17-INT-To-FP 
-VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/UnitTests/2005-07-17-INT-To-FP.reference_output

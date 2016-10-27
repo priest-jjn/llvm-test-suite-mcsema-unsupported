@@ -1,1 +1,0 @@
-/home/dsand/Junk/test-suite/build/tools/timeit --summary regression-cxx-inlined_cleanup.link.time /home/dsand/Install/llvm.release.install/bin/clang++          CMakeFiles/regression-cxx-inlined_cleanup.dir/inlined_cleanup.cpp.o  -o regression-cxx-inlined_cleanup -lstdc++ -lstdc++ 

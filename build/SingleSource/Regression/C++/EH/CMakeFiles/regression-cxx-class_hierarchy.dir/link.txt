@@ -1,1 +1,0 @@
-/home/dsand/Junk/test-suite/build/tools/timeit --summary regression-cxx-class_hierarchy.link.time /home/dsand/Install/llvm.release.install/bin/clang++          CMakeFiles/regression-cxx-class_hierarchy.dir/class_hierarchy.cpp.o  -o regression-cxx-class_hierarchy -lstdc++ -lstdc++ 

@@ -1,2 +1,0 @@
-RUN: /home/dsand/Junk/test-suite/build/SingleSource/UnitTests/2005-05-12-Int64ToFP 
-VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/UnitTests/2005-05-12-Int64ToFP.reference_output

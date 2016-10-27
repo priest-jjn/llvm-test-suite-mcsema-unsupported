@@ -1,2 +1,0 @@
-RUN: /home/dsand/Junk/test-suite/build/SingleSource/UnitTests/2003-05-31-LongShifts 
-VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/UnitTests/2003-05-31-LongShifts.reference_output

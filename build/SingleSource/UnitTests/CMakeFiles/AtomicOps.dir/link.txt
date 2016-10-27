@@ -1,1 +1,0 @@
-/home/dsand/Junk/test-suite/build/tools/timeit --summary AtomicOps.link.time /home/dsand/Install/llvm.release.install/bin/clang         CMakeFiles/AtomicOps.dir/AtomicOps.c.o  -o AtomicOps -lstdc++ 

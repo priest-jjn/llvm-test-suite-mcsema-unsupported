@@ -1,1 +1,0 @@
-/home/dsand/Junk/test-suite/build/tools/timeit --summary regression-cxx-ctor_dtor_count-2.link.time /home/dsand/Install/llvm.release.install/bin/clang++          CMakeFiles/regression-cxx-ctor_dtor_count-2.dir/ctor_dtor_count-2.cpp.o  -o regression-cxx-ctor_dtor_count-2 -lstdc++ -lstdc++ 

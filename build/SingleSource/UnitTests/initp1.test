@@ -1,2 +1,0 @@
-RUN: /home/dsand/Junk/test-suite/build/SingleSource/UnitTests/initp1 
-VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/UnitTests/initp1.reference_output

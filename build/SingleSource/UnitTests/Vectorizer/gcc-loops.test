@@ -1,2 +1,0 @@
-RUN: /home/dsand/Junk/test-suite/build/SingleSource/UnitTests/Vectorizer/gcc-loops 
-VERIFY: /home/dsand/Junk/test-suite/build/tools/fpcmp %o /home/dsand/Junk/test-suite/SingleSource/UnitTests/Vectorizer/gcc-loops.reference_output.little-endian

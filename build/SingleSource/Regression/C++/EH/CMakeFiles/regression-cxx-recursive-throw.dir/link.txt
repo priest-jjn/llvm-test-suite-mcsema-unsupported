@@ -1,1 +1,0 @@
-/home/dsand/Junk/test-suite/build/tools/timeit --summary regression-cxx-recursive-throw.link.time /home/dsand/Install/llvm.release.install/bin/clang++          CMakeFiles/regression-cxx-recursive-throw.dir/recursive-throw.cpp.o  -o regression-cxx-recursive-throw -lstdc++ -lstdc++ 
