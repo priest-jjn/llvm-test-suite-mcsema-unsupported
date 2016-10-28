@@ -6,7 +6,7 @@ AtomicOps.nonvec
 initp1.nonvec
 Vector/Vector-build.nonvec
 Vector/Vector-multiplies.nonvec
-Vector/Vector-nonvec.nonvec
+Vector/Vector-simple.nonvec
 Vector/Vector-sumarray.nonvec
 Vector/Vector-sumarray-dbl.nonvec
 Vectorizer/gcc-loops.nonvec
