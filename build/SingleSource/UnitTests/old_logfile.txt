@@ -1,0 +1,102 @@
+
+Mcsema Home: /home/sdasgup3/Junk/mcsema/
+
+===2003-05-31-LongShifts.nonvec===
+rm -rf  2003-05-31-LongShifts.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i 2003-05-31-LongShifts.nonvec.cfg  -o 2003-05-31-LongShifts.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  2003-05-31-LongShifts.nonvec.new.convert.txt 
+Unsupported
+
+===2005-05-11-Popcount-ffs-fls.nonvec===
+rm -rf  2005-05-11-Popcount-ffs-fls.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i 2005-05-11-Popcount-ffs-fls.nonvec.cfg  -o 2005-05-11-Popcount-ffs-fls.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  2005-05-11-Popcount-ffs-fls.nonvec.new.convert.txt 
+Unsupported
+
+===2005-05-12-Int64ToFP.nonvec===
+rm -rf  2005-05-12-Int64ToFP.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i 2005-05-12-Int64ToFP.nonvec.cfg  -o 2005-05-12-Int64ToFP.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  2005-05-12-Int64ToFP.nonvec.new.convert.txt 
+Unsupported
+
+===2005-07-17-INT-To-FP.nonvec===
+rm -rf  2005-07-17-INT-To-FP.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i 2005-07-17-INT-To-FP.nonvec.cfg  -o 2005-07-17-INT-To-FP.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  2005-07-17-INT-To-FP.nonvec.new.convert.txt 
+Unsupported
+
+===AtomicOps.nonvec===
+rm -rf  AtomicOps.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i AtomicOps.nonvec.cfg  -o AtomicOps.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  AtomicOps.nonvec.new.convert.txt 
+Unsupported
+
+===initp1.nonvec===
+rm -rf  initp1.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i initp1.nonvec.cfg  -o initp1.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  initp1.nonvec.new.convert.txt 
+Unsupported
+
+===Vector/Vector-build.nonvec===
+rm -rf  Vector/Vector-build.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vector/Vector-build.nonvec.cfg  -o Vector/Vector-build.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vector/Vector-build.nonvec.new.convert.txt 
+Unsupported
+
+===Vector/Vector-multiplies.nonvec===
+rm -rf  Vector/Vector-multiplies.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vector/Vector-multiplies.nonvec.cfg  -o Vector/Vector-multiplies.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vector/Vector-multiplies.nonvec.new.convert.txt 
+Unsupported
+
+===Vector/Vector-simple.nonvec===
+rm -rf  Vector/Vector-simple.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vector/Vector-simple.nonvec.cfg  -o Vector/Vector-simple.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vector/Vector-simple.nonvec.new.convert.txt 
+Unsupported
+
+===Vector/Vector-sumarray.nonvec===
+rm -rf  Vector/Vector-sumarray.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vector/Vector-sumarray.nonvec.cfg  -o Vector/Vector-sumarray.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vector/Vector-sumarray.nonvec.new.convert.txt 
+Unsupported
+
+===Vector/Vector-sumarray-dbl.nonvec===
+rm -rf  Vector/Vector-sumarray-dbl.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vector/Vector-sumarray-dbl.nonvec.cfg  -o Vector/Vector-sumarray-dbl.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vector/Vector-sumarray-dbl.nonvec.new.convert.txt 
+Unsupported
+
+===Vectorizer/gcc-loops.nonvec===
+rm -rf  Vectorizer/gcc-loops.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i Vectorizer/gcc-loops.nonvec.cfg  -o Vectorizer/gcc-loops.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  Vectorizer/gcc-loops.nonvec.new.convert.txt 
+Unsupported
+
+Original Unsupported
+2003-05-31-LongShifts.nonvec
+2005-05-11-Popcount-ffs-fls.nonvec
+2005-05-12-Int64ToFP.nonvec
+2005-07-17-INT-To-FP.nonvec
+AtomicOps.nonvec
+initp1.nonvec
+Vector/Vector-build.nonvec
+Vector/Vector-multiplies.nonvec
+Vector/Vector-simple.nonvec
+Vector/Vector-sumarray.nonvec
+Vector/Vector-sumarray-dbl.nonvec
+Vectorizer/gcc-loops.nonvec
+
+Current Unsupported
+2003-05-31-LongShifts.nonvec
+2005-05-11-Popcount-ffs-fls.nonvec
+2005-05-12-Int64ToFP.nonvec
+2005-07-17-INT-To-FP.nonvec
+AtomicOps.nonvec
+initp1.nonvec
+Vector/Vector-build.nonvec
+Vector/Vector-multiplies.nonvec
+Vector/Vector-simple.nonvec
+Vector/Vector-sumarray.nonvec
+Vector/Vector-sumarray-dbl.nonvec
+Vectorizer/gcc-loops.nonvec
+
+Current Pass
+
+Current Diff
+
+Total: 12
+Original supported Count 0
+Original Unsupported Count 12
+Pass Count 0
+Diff Error Count 0
+Current supported Count 0
+Current unsupported Count 12

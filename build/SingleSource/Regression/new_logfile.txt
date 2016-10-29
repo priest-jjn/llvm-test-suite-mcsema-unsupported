@@ -1,0 +1,139 @@
+
+Mcsema Home: /home/sdasgup3/Github/mcsema/
+
+===C/regression-c-DuffsDevice.nonvec===
+rm -rf  C/regression-c-DuffsDevice.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C/regression-c-DuffsDevice.nonvec.cfg  -o C/regression-c-DuffsDevice.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C/regression-c-DuffsDevice.nonvec.new.convert.txt 
+opt -O3    C/regression-c-DuffsDevice.nonvec.new.bc  -o=C/regression-c-DuffsDevice.nonvec.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o C/regression-c-DuffsDevice.nonvec.new.o C/regression-c-DuffsDevice.nonvec.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o C/regression-c-DuffsDevice.nonvec.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c C/regression-c-DuffsDevice.nonvec.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+C/regression-c-DuffsDevice.nonvec.new.o: In function `mcsema_main':
+C/regression-c-DuffsDevice.nonvec.new.opt.bc:(.text+0xe13): undefined reference to `do_call_value'
+clang-4.0: error: linker command failed with exit code 1 (use -v to see invocation)
+./C/regression-c-DuffsDevice.nonvec  &>  out1 
+./C/regression-c-DuffsDevice.nonvec.new.lifted  &>  out2 
+diff out1 out2 
+1c1
+< Sum is 4950
+---
+> sh: ./C/regression-c-DuffsDevice.nonvec.new.lifted: No such file or directory
+rm -rf  out1 out 2 
+
+===C/regression-c-globalrefs.nonvec===
+rm -rf  C/regression-c-globalrefs.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C/regression-c-globalrefs.nonvec.cfg  -o C/regression-c-globalrefs.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C/regression-c-globalrefs.nonvec.new.convert.txt 
+opt -O3    C/regression-c-globalrefs.nonvec.new.bc  -o=C/regression-c-globalrefs.nonvec.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o C/regression-c-globalrefs.nonvec.new.o C/regression-c-globalrefs.nonvec.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o C/regression-c-globalrefs.nonvec.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c C/regression-c-globalrefs.nonvec.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/regression-c-globalrefs.nonvec  &>  out1 
+./C/regression-c-globalrefs.nonvec.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===C/regression-c-test_indvars.nonvec===
+rm -rf  C/regression-c-test_indvars.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C/regression-c-test_indvars.nonvec.cfg  -o C/regression-c-test_indvars.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C/regression-c-test_indvars.nonvec.new.convert.txt 
+opt -O3    C/regression-c-test_indvars.nonvec.new.bc  -o=C/regression-c-test_indvars.nonvec.new.opt.bc 
+llc -march=x86-64 -filetype=obj -o C/regression-c-test_indvars.nonvec.new.o C/regression-c-test_indvars.nonvec.new.opt.bc 
+clang  -g -m64 -I/home/sdasgup3/Github/binary-decompilation/test/utils/ -o C/regression-c-test_indvars.nonvec.new.lifted /home/sdasgup3/Github/binary-decompilation/test/utils/driver_64.c C/regression-c-test_indvars.nonvec.new.o /home/sdasgup3/allvm-umbrella/allvm/build/lib/libnone.a 
+./C/regression-c-test_indvars.nonvec  &>  out1 
+./C/regression-c-test_indvars.nonvec.new.lifted  &>  out2 
+rm -rf  out1 out 2 
+
+===C++/regression-cxx-ofstream_ctor.nonvec===
+rm -rf  C++/regression-cxx-ofstream_ctor.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/regression-cxx-ofstream_ctor.nonvec.cfg  -o C++/regression-cxx-ofstream_ctor.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/regression-cxx-ofstream_ctor.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-class_hierarchy.nonvec===
+rm -rf  C++/EH/regression-cxx-class_hierarchy.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-class_hierarchy.nonvec.cfg  -o C++/EH/regression-cxx-class_hierarchy.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-class_hierarchy.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-ctor_dtor_count.nonvec===
+rm -rf  C++/EH/regression-cxx-ctor_dtor_count.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-ctor_dtor_count.nonvec.cfg  -o C++/EH/regression-cxx-ctor_dtor_count.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-ctor_dtor_count.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-ctor_dtor_count-2.nonvec===
+rm -rf  C++/EH/regression-cxx-ctor_dtor_count-2.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-ctor_dtor_count-2.nonvec.cfg  -o C++/EH/regression-cxx-ctor_dtor_count-2.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-ctor_dtor_count-2.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-exception_spec_test.nonvec===
+rm -rf  C++/EH/regression-cxx-exception_spec_test.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-exception_spec_test.nonvec.cfg  -o C++/EH/regression-cxx-exception_spec_test.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-exception_spec_test.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-function_try_block.nonvec===
+rm -rf  C++/EH/regression-cxx-function_try_block.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-function_try_block.nonvec.cfg  -o C++/EH/regression-cxx-function_try_block.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-function_try_block.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-inlined_cleanup.nonvec===
+rm -rf  C++/EH/regression-cxx-inlined_cleanup.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-inlined_cleanup.nonvec.cfg  -o C++/EH/regression-cxx-inlined_cleanup.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-inlined_cleanup.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-recursive-throw.nonvec===
+rm -rf  C++/EH/regression-cxx-recursive-throw.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-recursive-throw.nonvec.cfg  -o C++/EH/regression-cxx-recursive-throw.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-recursive-throw.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-simple_rethrow.nonvec===
+rm -rf  C++/EH/regression-cxx-simple_rethrow.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-simple_rethrow.nonvec.cfg  -o C++/EH/regression-cxx-simple_rethrow.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-simple_rethrow.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-simple_throw.nonvec===
+rm -rf  C++/EH/regression-cxx-simple_throw.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-simple_throw.nonvec.cfg  -o C++/EH/regression-cxx-simple_throw.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-simple_throw.nonvec.new.convert.txt 
+Unsupported
+
+===C++/EH/regression-cxx-throw_rethrow_test.nonvec===
+rm -rf  C++/EH/regression-cxx-throw_rethrow_test.nonvec.new.bc 
+/home/sdasgup3/Github/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i C++/EH/regression-cxx-throw_rethrow_test.nonvec.cfg  -o C++/EH/regression-cxx-throw_rethrow_test.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  C++/EH/regression-cxx-throw_rethrow_test.nonvec.new.convert.txt 
+Unsupported
+
+Original Unsupported
+C/regression-c-DuffsDevice.nonvec
+C/regression-c-globalrefs.nonvec
+C/regression-c-test_indvars.nonvec
+C++/regression-cxx-ofstream_ctor.nonvec
+C++/EH/regression-cxx-class_hierarchy.nonvec
+C++/EH/regression-cxx-ctor_dtor_count.nonvec
+C++/EH/regression-cxx-ctor_dtor_count-2.nonvec
+C++/EH/regression-cxx-exception_spec_test.nonvec
+C++/EH/regression-cxx-function_try_block.nonvec
+C++/EH/regression-cxx-inlined_cleanup.nonvec
+C++/EH/regression-cxx-recursive-throw.nonvec
+C++/EH/regression-cxx-simple_rethrow.nonvec
+C++/EH/regression-cxx-simple_throw.nonvec
+C++/EH/regression-cxx-throw_rethrow_test.nonvec
+
+Current Unsupported
+C++/regression-cxx-ofstream_ctor.nonvec
+C++/EH/regression-cxx-class_hierarchy.nonvec
+C++/EH/regression-cxx-ctor_dtor_count.nonvec
+C++/EH/regression-cxx-ctor_dtor_count-2.nonvec
+C++/EH/regression-cxx-exception_spec_test.nonvec
+C++/EH/regression-cxx-function_try_block.nonvec
+C++/EH/regression-cxx-inlined_cleanup.nonvec
+C++/EH/regression-cxx-recursive-throw.nonvec
+C++/EH/regression-cxx-simple_rethrow.nonvec
+C++/EH/regression-cxx-simple_throw.nonvec
+C++/EH/regression-cxx-throw_rethrow_test.nonvec
+
+Current Pass
+C/regression-c-globalrefs.nonvec
+C/regression-c-test_indvars.nonvec
+
+Current Diff
+C/regression-c-DuffsDevice.nonvec
+
+Total: 14
+Original supported Count 0
+Original Unsupported Count 14
+Pass Count 2
+Diff Error Count 1
+Current supported Count 3
+Current unsupported Count 11

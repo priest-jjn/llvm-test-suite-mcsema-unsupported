@@ -1,0 +1,368 @@
+
+Mcsema Home: /home/sdasgup3/Junk/mcsema/
+
+===./BenchmarkGame/fannkuch.nonvec===
+rm -rf  ./BenchmarkGame/fannkuch.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/fannkuch.nonvec.cfg  -o ./BenchmarkGame/fannkuch.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./BenchmarkGame/fannkuch.nonvec.new.convert.txt 
+Unsupported
+
+===./BenchmarkGame/puzzle.nonvec===
+rm -rf  ./BenchmarkGame/puzzle.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./BenchmarkGame/puzzle.nonvec.cfg  -o ./BenchmarkGame/puzzle.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./BenchmarkGame/puzzle.nonvec.new.convert.txt 
+Unsupported
+
+===./CoyoteBench/huffbench.nonvec===
+rm -rf  ./CoyoteBench/huffbench.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./CoyoteBench/huffbench.nonvec.cfg  -o ./CoyoteBench/huffbench.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./CoyoteBench/huffbench.nonvec.new.convert.txt 
+Unsupported
+
+===./McGill/misr.nonvec===
+rm -rf  ./McGill/misr.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./McGill/misr.nonvec.cfg  -o ./McGill/misr.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./McGill/misr.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops.nonvec===
+rm -rf  ./Misc/flops.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops.nonvec.cfg  -o ./Misc/flops.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-1.nonvec===
+rm -rf  ./Misc/flops-1.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-1.nonvec.cfg  -o ./Misc/flops-1.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-1.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-2.nonvec===
+rm -rf  ./Misc/flops-2.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-2.nonvec.cfg  -o ./Misc/flops-2.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-2.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-3.nonvec===
+rm -rf  ./Misc/flops-3.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-3.nonvec.cfg  -o ./Misc/flops-3.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-3.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-4.nonvec===
+rm -rf  ./Misc/flops-4.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-4.nonvec.cfg  -o ./Misc/flops-4.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-4.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-5.nonvec===
+rm -rf  ./Misc/flops-5.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-5.nonvec.cfg  -o ./Misc/flops-5.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-5.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-6.nonvec===
+rm -rf  ./Misc/flops-6.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-6.nonvec.cfg  -o ./Misc/flops-6.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-6.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-7.nonvec===
+rm -rf  ./Misc/flops-7.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-7.nonvec.cfg  -o ./Misc/flops-7.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-7.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/flops-8.nonvec===
+rm -rf  ./Misc/flops-8.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/flops-8.nonvec.cfg  -o ./Misc/flops-8.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/flops-8.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/matmul_f64_4x4.nonvec===
+rm -rf  ./Misc/matmul_f64_4x4.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/matmul_f64_4x4.nonvec.cfg  -o ./Misc/matmul_f64_4x4.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/matmul_f64_4x4.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/pi.nonvec===
+rm -rf  ./Misc/pi.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/pi.nonvec.cfg  -o ./Misc/pi.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/pi.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/ReedSolomon.nonvec===
+rm -rf  ./Misc/ReedSolomon.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/ReedSolomon.nonvec.cfg  -o ./Misc/ReedSolomon.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/ReedSolomon.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/richards_benchmark.nonvec===
+rm -rf  ./Misc/richards_benchmark.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/richards_benchmark.nonvec.cfg  -o ./Misc/richards_benchmark.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/richards_benchmark.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc/salsa20.nonvec===
+rm -rf  ./Misc/salsa20.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc/salsa20.nonvec.cfg  -o ./Misc/salsa20.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc/salsa20.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc-C++/bigfib.nonvec===
+rm -rf  ./Misc-C++/bigfib.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++/bigfib.nonvec.cfg  -o ./Misc-C++/bigfib.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc-C++/bigfib.nonvec.new.convert.txt 
+Unsupported
+
+===./Misc-C++-EH/spirit.nonvec===
+rm -rf  ./Misc-C++-EH/spirit.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Misc-C++-EH/spirit.nonvec.cfg  -o ./Misc-C++-EH/spirit.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Misc-C++-EH/spirit.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout/shootout-ary3.nonvec===
+rm -rf  ./Shootout/shootout-ary3.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/shootout-ary3.nonvec.cfg  -o ./Shootout/shootout-ary3.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout/shootout-ary3.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout/shootout-methcall.nonvec===
+rm -rf  ./Shootout/shootout-methcall.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/shootout-methcall.nonvec.cfg  -o ./Shootout/shootout-methcall.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout/shootout-methcall.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout/shootout-objinst.nonvec===
+rm -rf  ./Shootout/shootout-objinst.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout/shootout-objinst.nonvec.cfg  -o ./Shootout/shootout-objinst.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout/shootout-objinst.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-ackermann.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-ackermann.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-ackermann.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-ackermann.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-ackermann.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-ary.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-ary.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-ary.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-ary.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-ary.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-ary2.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-ary2.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-ary2.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-ary2.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-ary2.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-ary3.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-ary3.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-ary3.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-ary3.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-ary3.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-fibo.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-fibo.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-fibo.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-fibo.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-fibo.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-hash.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-hash.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-hash.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-hash.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-hash.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-hash2.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-hash2.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-hash2.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-hash2.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-hash2.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-hello.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-hello.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-hello.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-hello.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-hello.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-lists.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-lists.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-lists.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-lists.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-lists.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-lists1.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-lists1.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-lists1.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-lists1.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-lists1.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-matrix.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-matrix.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-matrix.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-matrix.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-matrix.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-methcall.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-methcall.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-methcall.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-methcall.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-methcall.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-nestedloop.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-nestedloop.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-nestedloop.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-nestedloop.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-nestedloop.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-objinst.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-objinst.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-objinst.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-objinst.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-objinst.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-reversefile.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-reversefile.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-reversefile.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-reversefile.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-reversefile.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-sieve.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-sieve.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-sieve.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-sieve.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-sieve.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-spellcheck.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-spellcheck.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-spellcheck.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-spellcheck.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-spellcheck.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-strcat.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-strcat.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-strcat.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-strcat.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-strcat.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-sumcol.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-sumcol.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-sumcol.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-sumcol.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-sumcol.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-wc.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-wc.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-wc.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-wc.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-wc.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/shootout-cxx-wordfreq.nonvec===
+rm -rf  ./Shootout-C++/shootout-cxx-wordfreq.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/shootout-cxx-wordfreq.nonvec.cfg  -o ./Shootout-C++/shootout-cxx-wordfreq.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/shootout-cxx-wordfreq.nonvec.new.convert.txt 
+Unsupported
+
+===./Shootout-C++/EH/shootout-cxx-except.nonvec===
+rm -rf  ./Shootout-C++/EH/shootout-cxx-except.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Shootout-C++/EH/shootout-cxx-except.nonvec.cfg  -o ./Shootout-C++/EH/shootout-cxx-except.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Shootout-C++/EH/shootout-cxx-except.nonvec.new.convert.txt 
+Unsupported
+
+===./Stanford/Bubblesort.nonvec===
+rm -rf  ./Stanford/Bubblesort.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Bubblesort.nonvec.cfg  -o ./Stanford/Bubblesort.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Stanford/Bubblesort.nonvec.new.convert.txt 
+Unsupported
+
+===./Stanford/Puzzle.nonvec===
+rm -rf  ./Stanford/Puzzle.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Puzzle.nonvec.cfg  -o ./Stanford/Puzzle.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Stanford/Puzzle.nonvec.new.convert.txt 
+Unsupported
+
+===./Stanford/Quicksort.nonvec===
+rm -rf  ./Stanford/Quicksort.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Quicksort.nonvec.cfg  -o ./Stanford/Quicksort.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Stanford/Quicksort.nonvec.new.convert.txt 
+Unsupported
+
+===./Stanford/Treesort.nonvec===
+rm -rf  ./Stanford/Treesort.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/Treesort.nonvec.cfg  -o ./Stanford/Treesort.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Stanford/Treesort.nonvec.new.convert.txt 
+Unsupported
+
+===./Stanford/RealMM.nonvec===
+rm -rf  ./Stanford/RealMM.nonvec.new.bc 
+/home/sdasgup3/Junk/mcsema//build/mc-sema/bitcode_from_cfg//cfg_to_bc  -mtriple=x86_64-pc-linux-gnu  -i ./Stanford/RealMM.nonvec.cfg  -o ./Stanford/RealMM.nonvec.new.bc  -driver=mcsema_main,main,raw,return,C  &>  ./Stanford/RealMM.nonvec.new.convert.txt 
+Unsupported
+
+Original Unsupported
+./BenchmarkGame/fannkuch.nonvec
+./BenchmarkGame/puzzle.nonvec
+./CoyoteBench/huffbench.nonvec
+./McGill/misr.nonvec
+./Misc/flops.nonvec
+./Misc/flops-1.nonvec
+./Misc/flops-2.nonvec
+./Misc/flops-3.nonvec
+./Misc/flops-4.nonvec
+./Misc/flops-5.nonvec
+./Misc/flops-6.nonvec
+./Misc/flops-7.nonvec
+./Misc/flops-8.nonvec
+./Misc/matmul_f64_4x4.nonvec
+./Misc/pi.nonvec
+./Misc/ReedSolomon.nonvec
+./Misc/richards_benchmark.nonvec
+./Misc/salsa20.nonvec
+./Misc-C++/bigfib.nonvec
+./Misc-C++-EH/spirit.nonvec
+./Shootout/shootout-ary3.nonvec
+./Shootout/shootout-methcall.nonvec
+./Shootout/shootout-objinst.nonvec
+./Shootout-C++/shootout-cxx-ackermann.nonvec
+./Shootout-C++/shootout-cxx-ary.nonvec
+./Shootout-C++/shootout-cxx-ary2.nonvec
+./Shootout-C++/shootout-cxx-ary3.nonvec
+./Shootout-C++/shootout-cxx-fibo.nonvec
+./Shootout-C++/shootout-cxx-hash.nonvec
+./Shootout-C++/shootout-cxx-hash2.nonvec
+./Shootout-C++/shootout-cxx-hello.nonvec
+./Shootout-C++/shootout-cxx-lists.nonvec
+./Shootout-C++/shootout-cxx-lists1.nonvec
+./Shootout-C++/shootout-cxx-matrix.nonvec
+./Shootout-C++/shootout-cxx-methcall.nonvec
+./Shootout-C++/shootout-cxx-nestedloop.nonvec
+./Shootout-C++/shootout-cxx-objinst.nonvec
+./Shootout-C++/shootout-cxx-reversefile.nonvec
+./Shootout-C++/shootout-cxx-sieve.nonvec
+./Shootout-C++/shootout-cxx-spellcheck.nonvec
+./Shootout-C++/shootout-cxx-strcat.nonvec
+./Shootout-C++/shootout-cxx-sumcol.nonvec
+./Shootout-C++/shootout-cxx-wc.nonvec
+./Shootout-C++/shootout-cxx-wordfreq.nonvec
+./Shootout-C++/EH/shootout-cxx-except.nonvec
+./Stanford/Bubblesort.nonvec
+./Stanford/Puzzle.nonvec
+./Stanford/Quicksort.nonvec
+./Stanford/Treesort.nonvec
+./Stanford/RealMM.nonvec
+
+Current Unsupported
+./BenchmarkGame/fannkuch.nonvec
+./BenchmarkGame/puzzle.nonvec
+./CoyoteBench/huffbench.nonvec
+./McGill/misr.nonvec
+./Misc/flops.nonvec
+./Misc/flops-1.nonvec
+./Misc/flops-2.nonvec
+./Misc/flops-3.nonvec
+./Misc/flops-4.nonvec
+./Misc/flops-5.nonvec
+./Misc/flops-6.nonvec
+./Misc/flops-7.nonvec
+./Misc/flops-8.nonvec
+./Misc/matmul_f64_4x4.nonvec
+./Misc/pi.nonvec
+./Misc/ReedSolomon.nonvec
+./Misc/richards_benchmark.nonvec
+./Misc/salsa20.nonvec
+./Misc-C++/bigfib.nonvec
+./Misc-C++-EH/spirit.nonvec
+./Shootout/shootout-ary3.nonvec
+./Shootout/shootout-methcall.nonvec
+./Shootout/shootout-objinst.nonvec
+./Shootout-C++/shootout-cxx-ackermann.nonvec
+./Shootout-C++/shootout-cxx-ary.nonvec
+./Shootout-C++/shootout-cxx-ary2.nonvec
+./Shootout-C++/shootout-cxx-ary3.nonvec
+./Shootout-C++/shootout-cxx-fibo.nonvec
+./Shootout-C++/shootout-cxx-hash.nonvec
+./Shootout-C++/shootout-cxx-hash2.nonvec
+./Shootout-C++/shootout-cxx-hello.nonvec
+./Shootout-C++/shootout-cxx-lists.nonvec
+./Shootout-C++/shootout-cxx-lists1.nonvec
+./Shootout-C++/shootout-cxx-matrix.nonvec
+./Shootout-C++/shootout-cxx-methcall.nonvec
+./Shootout-C++/shootout-cxx-nestedloop.nonvec
+./Shootout-C++/shootout-cxx-objinst.nonvec
+./Shootout-C++/shootout-cxx-reversefile.nonvec
+./Shootout-C++/shootout-cxx-sieve.nonvec
+./Shootout-C++/shootout-cxx-spellcheck.nonvec
+./Shootout-C++/shootout-cxx-strcat.nonvec
+./Shootout-C++/shootout-cxx-sumcol.nonvec
+./Shootout-C++/shootout-cxx-wc.nonvec
+./Shootout-C++/shootout-cxx-wordfreq.nonvec
+./Shootout-C++/EH/shootout-cxx-except.nonvec
+./Stanford/Bubblesort.nonvec
+./Stanford/Puzzle.nonvec
+./Stanford/Quicksort.nonvec
+./Stanford/Treesort.nonvec
+./Stanford/RealMM.nonvec
+
+Current Pass
+
+Current Diff
+
+Total: 50
+Original supported Count 0
+Original Unsupported Count 50
+Pass Count 0
+Diff Error Count 0
+Current supported Count 0
+Current unsupported Count 50
